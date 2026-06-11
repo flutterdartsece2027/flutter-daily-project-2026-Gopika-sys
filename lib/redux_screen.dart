@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
+import 'package:get/get.dart';
 import 'redux_store.dart';
+import 'payment_screen.dart';
 
 class ReduxScreen extends StatelessWidget {
   const ReduxScreen({super.key});
@@ -78,6 +80,12 @@ class ReduxScreen extends StatelessWidget {
             );
           },
         ),
+      ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () => Get.to(() => const PaymentScreen()),
+        label: const Text('PROCEED TO CHECKOUT'),
+        icon: const Icon(Icons.payment),
+        backgroundColor: Colors.purple,
       ),
     );
   }

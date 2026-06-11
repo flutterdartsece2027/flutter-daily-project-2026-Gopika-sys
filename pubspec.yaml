@@ -34,6 +34,7 @@ dependencies:
   get: ^4.7.3
   redux: ^5.0.0
   flutter_redux: ^0.10.0
+  razorpay_flutter: ^1.4.5
 
 dev_dependencies:
   flutter_test:

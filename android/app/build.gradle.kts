@@ -18,7 +18,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.splash_app"
-        // Force minSdk to 21 or higher if you run into any legacy multidex issues with Firebase packages
+        // 🟢 Razorpay requires minSdk 22 or higher
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
