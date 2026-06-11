@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673997636269",
+    "project_id": "glowher-b4004",
+    "storage_bucket": "glowher-b4004.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673997636269:android:20d688f186b8c50753bc24",
+        "android_client_info": {
+          "package_name": "com.example.splash_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXvexV4PLMjqdKU2E5I5ipYvUVF_AD2Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
